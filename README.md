@@ -26,7 +26,7 @@ The terminal might want to close in case of some critical updates, such as `pacm
     ```bash
     pacman -S base-devel mingw-w64-ucrt-x86_64-clang mingw-w64-ucrt-x86_64-lldb mingw-w64-ucrt-x86_64-ninja mingw-w64-ucrt-x86_64-cmake mingw-w64-ucrt-x86_64-opencv mingw-w64-ucrt-x86_64-qt6-5compat
     ```
-    ![Install Packages](./assets/README/3_Install_Packages.png)
+    ![Install Packages](./assets/README/3_Install_packages.png)
 
 4. Now that you have installed all the packages, you will need to add the MSYS2 binaries to your `PATH` environment variable. Go ahead and open the `Edit environment variables for your account` window by searching for it in the start menu.
 
