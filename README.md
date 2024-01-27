@@ -42,7 +42,7 @@ The terminal might want to close in case of some critical updates, such as `pacm
 
     **NOTE**: In my case, I installed MSYS2 in `C:\Users\Public\Apps\MSYS2`, yours might be different, so please make sure to use the correct path.
 
-    Afterwards, click on `OK` in all of the dialogs / windoes to save the changes.
+    Afterwards, click on `OK` in all of the dialogs / windows to save the changes.
 
 7. Now, go ahead and fire up VS Code, where you will need to install the [C/C++ extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) for VS Code. To do this, open VS Code and click on the `Extensions` icon in the left sidebar. Then search for `C/C++` and click on `Install`.
 
