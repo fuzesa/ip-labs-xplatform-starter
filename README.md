@@ -48,8 +48,15 @@ The terminal might want to close in case of some critical updates, such as `pacm
 
 8. Once the extension is installed, then go ahead and open the project from GitHub in VS Code. When the project is opened, you should configure CMake by opening the command palette with `Ctrl + Shift + P` and then searching for `CMake: Select a kit`. Select the `Clang 17.0.6 x86_64-w64-windows-gnu (ucrt64)` kit.
 
-    ![Select CMake Kit](./assets/README/7_Select_compiler.png) 
+    ![Select CMake Kit](./assets/README/7_Select_compiler.png)
+
+9. This should automatically configure CMake. In case it didn't, then open the command palette and run `CMake: Configure`. You should see a similar output in your editor as well:
+
+    ![CMake Configure](./assets/README/8_Configure_successful.png)
     
+10. Then you should build the project by either clicking on the `Build` button in the bottom left corner of the editor or by opening the command palette and running `CMake: Build` (`Ctrl + Shift + B`).
+
+11. Run or Debug the project by clicking on the `Run` or `Debug` buttons in the bottom left corner of the editor.
 
 ### Linux
 
