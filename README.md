@@ -13,7 +13,8 @@ This is a sample starter project for the [Technical University of Cluj-Napoca](h
 From the [MSYS2 homepage](https://www.msys2.org/), download the installer and run it.
 
 2. Once you have installed it, run the **UCRT64** based shell. To paste text into the shell, right click on the title bar and select `Edit` -> `Paste` or press `Shift` + `Insert`.
-![MSYS2 UCRT64](./assets/README/1_Run_MSYS2-UCRT64.png)
+
+    ![MSYS2 UCRT64](./assets/README/1_Run_MSYS2-UCRT64.png)
 Inside the shell, run the following commands to update the package database and upgrade the packages to the latest version. When asked, please confirm the installation of the packages by typing `y` and pressing `Enter`.
    ```bash
    pacman -Syu
