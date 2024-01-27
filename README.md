@@ -58,6 +58,8 @@ The terminal might want to close in case of some critical updates, such as `pacm
 
 11. Run or Debug the project by clicking on the `Run` or `Debug` buttons in the bottom left corner of the editor.
 
+    ![Run or Debug](./assets/README/9_Run_project.png)
+
 ### Linux
 
 ### MacOS
