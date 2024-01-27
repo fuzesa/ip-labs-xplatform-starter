@@ -46,7 +46,9 @@ The terminal might want to close in case of some critical updates, such as `pacm
 
 7. Now, go ahead and fire up VS Code, where you will need to install the [C/C++ extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) for VS Code. To do this, open VS Code and click on the `Extensions` icon in the left sidebar. Then search for `C/C++` and click on `Install`.
 
-8. Once the extension is installed, then go ahead and open the project from GitHub in VS Code. When the project is opened, you should configure CMake 
+8. Once the extension is installed, then go ahead and open the project from GitHub in VS Code. When the project is opened, you should configure CMake by opening the command palette with `Ctrl + Shift + P` and then searching for `CMake: Select a kit`. Select the `Clang 17.0.6 x86_64-w64-windows-gnu (ucrt64)` kit.
+    ![Select CMake Kit](./assets/README/7_Select_compiler.png) 
+    
 
 ### Linux
 
