@@ -29,12 +29,14 @@ The terminal might want to close in case of some critical updates, such as `pacm
     ![Install Packages](./assets/README/3_Install_Packages.png)
 
 4. Now that you have installed all the packages, you will need to add the MSYS2 binaries to your `PATH` environment variable. Go ahead and open the `Edit environment variables for your account` window by searching for it in the start menu.
+
     ![Edit Environment Variables](./assets/README/4_Edit_env_vars.png)
 
-5. Click on the `Path` variable and then click on `Edit`
+6. Click on the `Path` variable and then click on `Edit`
+
     ![Edit Path](./assets/README/5_Edit_path_var.png)
 
-6. Add the following new entries to the list:
+7. Add the following new entries to the list:
     ```bash
     C:\<PATH_TO_WHERE_YOU_INSTALLED_MSYS2>\ucrt64\bin
     C:\<PATH_TO_WHERE_YOU_INSTALLED_MSYS2>\ucrt64\lib
@@ -45,19 +47,19 @@ The terminal might want to close in case of some critical updates, such as `pacm
 
     Afterwards, click on `OK` in all of the dialogs / windows to save the changes.
 
-7. Now, go ahead and fire up VS Code, where you will need to install the [C/C++ extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) for VS Code. To do this, open VS Code and click on the `Extensions` icon in the left sidebar. Then search for `C/C++` and click on `Install`.
+8. Now, go ahead and fire up VS Code, where you will need to install the [C/C++ extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) for VS Code. To do this, open VS Code and click on the `Extensions` icon in the left sidebar. Then search for `C/C++` and click on `Install`.
 
-8. Once the extension is installed, then go ahead and open the project from GitHub in VS Code. When the project is opened, you should configure CMake by opening the command palette with `Ctrl + Shift + P` and then searching for `CMake: Select a kit`. Select the `Clang 17.0.6 x86_64-w64-windows-gnu (ucrt64)` kit.
+9. Once the extension is installed, then go ahead and open the project from GitHub in VS Code. When the project is opened, you should configure CMake by opening the command palette with `Ctrl + Shift + P` and then searching for `CMake: Select a kit`. Select the `Clang 17.0.6 x86_64-w64-windows-gnu (ucrt64)` kit.
 
     ![Select CMake Kit](./assets/README/7_Select_compiler.png)
 
-9. This should automatically configure CMake. In case it didn't, then open the command palette and run `CMake: Configure`. You should see a similar output in your editor as well:
+10. This should automatically configure CMake. In case it didn't, then open the command palette and run `CMake: Configure`. You should see a similar output in your editor as well:
 
     ![CMake Configure](./assets/README/8_Configure_successful.png)
     
-10. Then you should build the project by either clicking on the `Build` button in the bottom left corner of the editor or by opening the command palette and running `CMake: Build` (`Ctrl + Shift + B`).
+11. Then you should build the project by either clicking on the `Build` button in the bottom left corner of the editor or by opening the command palette and running `CMake: Build` (`Ctrl + Shift + B`).
 
-11. Run or Debug the project by clicking on the `Run` or `Debug` buttons in the bottom left corner of the editor.
+12. Run or Debug the project by clicking on the `Run` or `Debug` buttons in the bottom left corner of the editor.
 
     ![Run or Debug](./assets/README/9_Run_project.png)
 
