@@ -6,7 +6,7 @@ This is a sample starter project for the [Technical University of Cluj-Napoca](h
 ## Platform specific setup
 
 ### Windows
-**!!! _IMPORTANT_ !!!** This setup is meant to be used **WITHOUT** Visual Studio. If you want to use Visual Studio, then just simply download the starter project specific to your Visual Studio version from the labs homepage. Visual Studio can be a _**HUGE** resource hog_, so in case you don't want to use it and would rather use the mich more lightweight [Visual Studio Code](https://code.visualstudio.com/), then this is the setup for you.  
+**!!! _IMPORTANT_ !!!** This setup is meant to be used **WITHOUT** Visual Studio. If you want to use Visual Studio, then just simply download the starter project specific to your Visual Studio version from the labs homepage. Visual Studio can be a _**HUGE** resource hog_, so in case you don't want to use it and would rather use the much more lightweight and less resource intensive [Visual Studio Code](https://code.visualstudio.com/), then this is the setup for you.  
 
 #### MSYS2
 1. Since we are going to use VS Code as our IDE, we need to install a compiler and a build system. For this we are going to use [MSYS2](https://www.msys2.org/), which is a minimal unix-like environment for Windows that uses [pacman](https://wiki.archlinux.org/index.php/pacman) as its package manager for easy installation of packages and other dependencies that you will need.  
